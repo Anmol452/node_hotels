@@ -22,4 +22,6 @@ db.on('error', ()=>{
     console.error('MongoDB connection error: ' , error() );
 })
 
+
+// test only
 module.export = db
